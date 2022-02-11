@@ -1,0 +1,108 @@
+body {
+    background-color: #FCF0C8;
+}
+
+h1 {
+    border: solid black;
+    text-align: center;
+    margin: 30px;
+    font-family: "Berlin Sans FB", serif;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: #FFC074;
+}
+
+div {
+    border-radius: 10px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.block {
+    box-sizing: border-box;
+    border: solid black;
+    width: 20%;
+    height: auto;
+    position: relative;
+    background-color: #FFC074;
+}
+
+#block1 {
+    margin-bottom: 15px;
+}
+
+#block2 {
+    margin-bottom: 15px;
+}
+
+.title-block {
+    float: right;
+    display: flex;
+    width: 35%;
+}
+
+.title {
+    /*background-color: #219F94;*/
+    margin: 2px;
+    width: 100%;
+    border-radius: 10px;
+    border: solid black;
+    text-align: center;
+    font-family: "Berlin Sans FB", serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#title1 {
+    background-color: #FFA900;
+}
+
+#title2 {
+    background-color: #CD113B;
+}
+
+#title3 {
+    background-color: #FF7600;
+}
+
+.content-block {
+    clear: both;
+}
+
+.content {
+    font-family: "Berlin Sans FB", serif;
+    font-size: 20px;
+    padding: 7px;
+}
+
+@media (min-width: 992px) {
+    .block {
+        width: 30%;
+    }
+
+    #block1, #block2 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #block1, #block2 {
+        width: 47%;
+    }
+
+    #block3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .block {
+        width: 100%;
+    }
+}
