@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Righteous', cursive;
+    background-color: #F0F7E0;
+}
+
+#header-nav {
+    background-color: #613659;
+}
+
+.navbar-brand h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .5;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: #F0F7E0;
+}
+
+.top-section {
+    font-size: 20px;
+    color: #F0F7E0;
+}
+
+.top-section:hover {
+    color: #C197D2;
+}
+
+#top {
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 7px;
+    border: solid #211522;
+    background-color: #C197D2;
+    color: #211522;
+}
+
+.inner-section {
+    height: 100%;
+    border-radius: 7px;
+    border: solid #211522;
+    padding: 10px;
+    background-color: #C197D2;
+    color: #211522;
+}
+
+.outer-section {
+    margin-bottom: 10px;
+}
+
+.back-to-top {
+    text-decoration: none;
+    font-size: 12px;
+    color: #F0F7E0;
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+    color: #211522;
+}
